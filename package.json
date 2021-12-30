@@ -1,6 +1,6 @@
 {
   "name": "genius-discord-lyrics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility that fetches lyrics from Genius",
   "main": "dist/index.js",
   "repository": {
