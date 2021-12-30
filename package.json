@@ -1,0 +1,24 @@
+{
+  "name": "genius-discord-lyrics",
+  "version": "1.0.0",
+  "description": "A simple utility that fetches lyrics from Genius",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node lib/index.ts",
+    "tsc": "tsc"
+  },
+  "author": "Nir Gal",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
