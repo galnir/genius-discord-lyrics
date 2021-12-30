@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "ts-node lib/index.ts",
-    "tsc": "tsc"
+    "prepublish": "tsc"
   },
   "author": "Nir Gal",
   "license": "ISC",
