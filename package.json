@@ -1,9 +1,9 @@
 {
   "name": "genius-discord-lyrics",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple utility that fetches lyrics from Genius",
-  "main": "dist/lib/index",
-  "typings": "dist/lib/index",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/galnir/genius-discord-lyrics.git"
