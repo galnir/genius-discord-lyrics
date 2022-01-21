@@ -16,7 +16,7 @@ export class GeniusLyrics {
       );
   };
 
-  private searchSong = (query: string): Promise<any> => {
+  private searchSong = (query: string): Promise<string> => {
     const token = this.token;
     return new Promise(async function (resolve, reject) {
       const searchURL = `https://api.genius.com/search?q=${encodeURI(query)}`;
@@ -34,7 +34,7 @@ export class GeniusLyrics {
     });
   };
 
-  public fetchLyrics = async (query: string) => {
+  public fetchLyrics = async (query: string): Promise<string> => {
     const url = await this.searchSong(this.cleanSongName(query));
     return new Promise(async function (resolve, reject) {
       try {
